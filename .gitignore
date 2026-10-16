@@ -5,9 +5,6 @@
 
 # Node modules and package lock files
 node_modules/
-jspm_packages/
-package-lock.json
-yarn.lock
 
 # Optional npm cache directory
 .npm
@@ -18,15 +15,11 @@ yarn.lock
 .vscode-test
 
 #Build output
-build/
-dist/
-lib/
+/dist/
 
 # Test coverage reports
 coverage-reports
 coverage/
-spec-reports
-test-reports
 
 # Logs
 logs
@@ -34,14 +27,11 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
 
 # ---> Operating System generated files
 ehthumbs.db
 Thumbs.db
-EOL
+.DS_Store
 
-# Vite files
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-.vite/
+# TypeScript cache
+*.tsbuildinfo
