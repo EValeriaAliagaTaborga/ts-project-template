@@ -2,6 +2,6 @@
 
 A log file to keep track of all essential learning and practice applied to this project.
 
-## Logs (dd/mm/yyyy)
+## Logs (yyyy/mm/dd)
 
-* 16/10/2026 - Setting a project with the proper starting templates and config files such as .gitignore, .env.example, .nvmrc, LICENSE, and README.md. All considering the tech stack.
+* 2026/10/16 - Learned that leading slashes match at any depth, so I anchored /dist/ and /logs/ as a safer option. Including the lockfile is necessary because `npm ci` needs it for reproducible installs.
