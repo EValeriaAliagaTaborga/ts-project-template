@@ -2,14 +2,13 @@
 
 > A short, one-sentence description of what this project does and who it is for.
 
-[![License: MIT](https://shields.io)](LICENSE)  
-[![Build Status](https://shields.io)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)  
 
 ---
 
 ## Table of Contents
 
-* [About - Problem](#about)
+* [Problem](#problem)
 * [Features](#features)
 * [Tech Stack](#tech-stack)
 * [Architecture](#architecture)
@@ -17,14 +16,14 @@
 * [Run Locally](#run-locally)
 * [Run Tests](#run-tests)
 * [Project Structure](#project-structure)
-* [Contributing](#contributing)
+* [Key decisions and trade-offs](#key-decisions-and-trade-offs)
 * [What I Would Improve Next](#what-i-would-improve-next)
 * [License](#license)
 * [Contact](#contact)
 
 ---
 
-## About - Problem
+## Problem
 
 Provide a deeper explanation of the project. Why did you build it? What problem does it solve? 
 
@@ -36,9 +35,8 @@ Provide a deeper explanation of the project. Why did you build it? What problem 
 
 ## Tech Stack
 
-* **Language:** NodeJS, TypeScript
-* **Database:** [e.g., PostgreSQL / Supabase]
-* **Styling/UI:** [e.g., Tailwind CSS]
+* **Language:** TypeScript
+* **Runtime:** Node.js 24
 
 ## Architecture
 
@@ -47,8 +45,8 @@ Provide an explanation of the architecture of the project.
 ## Prerequisites
 
 List what needs to be installed on the user's machine before they start:
-* [Node.js](https://nodejs.org) (v18 or higher)
-* [Git](https://git-scm.net)
+* [Node.js](https://nodejs.org) - Node.js 24 (see .nvmrc).
+* [Git](https://git-scm.com)
 
 ## Installation
 
@@ -56,7 +54,7 @@ Step-by-step guide to get the project running locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com
+   git clone <repo-url>
    ```
 
 2. Navigate into the project directory:
@@ -78,11 +76,8 @@ Step-by-step guide to get the project running locally:
 Explain how to run the project or execute main scripts:
 
 ```bash
-npm run dev
+<command>
 ```
-
-Provide a code snippet or example of the output/behavior:
-* Open `http://localhost:3000` in your browser.
 
 ## Run Tests
 
@@ -94,17 +89,15 @@ Briefly map out the key directories in the repository:
 
 ```text
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   └── App.js
-├── public/
 ├── .env.example
 ├── .gitignore
-├── package.json
+├── .nvmrc
+├── LEARNING_LOG.md
+├── LICENSE
 └── README.md
 ```
 
-## Contributing
+## Key decisions and trade-offs
 
 Key decisions about the project.
 
