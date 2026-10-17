@@ -79,41 +79,41 @@ Step-by-step guide to get the project running locally:
 
 Explain how to run the project or execute main scripts:
 
-1. Compile project
+- Compile project
 
-```bash
-npm run build
-```
+   ```bash
+   npm run build
+   ```
 
-2. Type-check without emitting files
+- Type-check without emitting files
 
-```bash
-npm run typecheck
-```
+   ```bash
+   npm run typecheck
+   ```
 
-3. Inspect code with ESLint
+- Inspect code with ESLint
 
-```bash
-npm run lint
-```
+   ```bash
+   npm run lint
+   ```
 
-4. Format files with prettier
+- Format files with prettier
 
-```bash
-npm run format
-```
+   ```bash
+   npm run format
+   ```
 
-5. Check that all files are properly formated.
+- Check that all files are properly formatted.
 
-```bash
-npm run format:check
-```
+   ```bash
+   npm run format:check
+   ```
 
-6. Run compiled app
+- Run compiled app
 
-```bash
-npm run start
-```
+   ```bash
+   npm run start
+   ```
 
 ## Run Tests
 
