@@ -1,0 +1,28 @@
+{
+	"name": "ts-project-template",
+	"version": "1.0.0",
+	"description": "> A short, one-sentence description of what this project does and who it is for.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EValeriaAliagaTaborga/ts-project-template.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"type": "module",
+	"private": true,
+	"engines": {
+		"node": ">=24"
+	},
+	"bugs": {
+		"url": "https://github.com/EValeriaAliagaTaborga/ts-project-template/issues"
+	},
+	"homepage": "https://github.com/EValeriaAliagaTaborga/ts-project-template#readme",
+	"devDependencies": {
+		"@types/node": "24.19.2",
+		"typescript": "6.0.3"
+	}
+}
